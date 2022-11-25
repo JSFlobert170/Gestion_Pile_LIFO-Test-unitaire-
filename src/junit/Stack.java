@@ -3,12 +3,12 @@ package junit;
 import java.util.LinkedList;
 
 	public class Stack {
-		
+
 		int top=0;
 		LinkedList<Integer> tableau = new LinkedList<Integer>();
 		public void push(int elem) {
-			tableau.add(null);
-			tableau.set(top, elem);
+			tableau.add(elem);
+			//tableau.set(top, elem);
 			top++;
 		}
 
